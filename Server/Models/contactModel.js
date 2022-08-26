@@ -11,10 +11,7 @@ const contactSchema = new mongoose.Schema({
         unique: true
     },
     image: {
-        type: String,
-        required: true,
-        default: 
-            "https://www.w3schools.com/howto/img_avatar.png"
+        type: String
     }
 },{ timestamps:true });
 
